@@ -1,4 +1,8 @@
 function Trocar(){
     let tipo = document.getElementById("veiculo").value
-    alert(tipo)
+    
+    if(tipo == "Básico"){
+        document.getElementById("imagem").src="basico.png"
+    }else if(tipo == "Esporte"){
+    
 }
